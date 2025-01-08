@@ -12,7 +12,7 @@ public class App {
                 (HelloWorld) applicationContext.getBean("helloworld");
         Cat cat = (Cat) applicationContext.getBean("cat");
         Cat catTwo = (Cat) applicationContext.getBean("cat");
-        System.out.println("Is helloWorld's beans equals? - " + (bean == beanTwo));
-        System.out.println("Is cat's beans equals? - " + (cat == catTwo));
+        System.out.println("Are helloWorld's beans equals? - " + (bean == beanTwo));
+        System.out.println("Are cat's beans equals? - " + (cat == catTwo));
     }
 }
